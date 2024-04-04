@@ -115,3 +115,42 @@ new Vue({
 - **counter.js:** Este arquivo contém a definição do componente Vue.js. Usamos `Vue.component()` para criar um novo componente chamado "counter". O componente tem um template HTML que define a estrutura do componente, incluindo um título, um contador e dois botões para incrementar e decrementar o contador. O componente também tem um objeto `data` que define o estado do componente, neste caso, apenas um valor `count` inicializado como 0. Também temos métodos `increment()` e `decrement()` para atualizar o valor do contador quando os botões são clicados. No final, inicializamos o aplicativo Vue.js com `new Vue()` e montamos o aplicativo no elemento com o ID "app".
 
 Este é um exemplo simples de um componente Vue.js que demonstra como criar e usar componentes, gerenciar estado e lidar com eventos. Com o Vue.js, você pode criar aplicativos web complexos e interativos de forma eficiente e elegante.
+
+## DIRETÓRIO:
+Ao criar um novo projeto Vue.js, a estrutura de diretórios padrão geralmente se parece com isto:
+```markdown
+├── public/              # Arquivos públicos
+│   ├── index.html       # Arquivo HTML principal
+│   └── ...
+├── src/                 # Código-fonte da aplicação
+│   ├── assets/          # Arquivos de assets como imagens, fontes, etc.
+│   ├── components/      # Componentes Vue reutilizáveis
+│   ├── views/           # Componentes de visualização (rotas ou páginas)
+│   ├── App.vue          # Componente raiz da aplicação
+│   └── main.js          # Arquivo de entrada JavaScript da aplicação
+├── .gitignore           # Arquivo de configuração do git para ignorar arquivos/diretórios
+├── babel.config.js      # Configuração do Babel
+├── package.json         # Arquivo de configuração do npm com dependências e scripts
+└── README.md            # Documentação do projeto
+```
+
+Aqui está uma explicação mais detalhada da estrutura de diretórios:
+
+- **public/**: Este diretório contém os arquivos que serão diretamente servidos pelo servidor. O arquivo `index.html` é o arquivo HTML principal da aplicação, onde a montagem da aplicação Vue.js ocorre.
+
+- **src/**: Este é o diretório principal do código-fonte da aplicação Vue.js. Ele contém os seguintes subdiretórios:
+  - **assets/**: Este diretório é usado para armazenar arquivos de assets estáticos como imagens, fontes, etc.
+  - **components/**: Este diretório contém componentes Vue.js reutilizáveis que podem ser usados em toda a aplicação.
+  - **views/**: Este diretório geralmente contém os componentes de visualização da aplicação, que correspondem a diferentes rotas ou páginas.
+  - **App.vue**: Este é o componente raiz da aplicação Vue.js. Ele encapsula toda a aplicação e pode conter componentes globais e estilos.
+  - **main.js**: Este é o arquivo de entrada JavaScript da aplicação, onde a instância Vue.js é criada e montada na página.
+
+- **.gitignore**: Este arquivo especifica quais arquivos e diretórios devem ser ignorados pelo Git durante o controle de versão.
+
+- **babel.config.js**: Este arquivo contém a configuração do Babel, que é usado para transpilar o código JavaScript para uma versão compatível com diferentes navegadores.
+
+- **package.json**: Este arquivo contém as dependências do projeto e scripts de gerenciamento de tarefas definidos para o npm.
+
+- **README.md**: Este é o arquivo de documentação do projeto, geralmente contendo informações sobre como configurar, instalar e usar a aplicação.
+
+Esta estrutura de diretórios é comum em projetos Vue.js, mas pode variar dependendo das necessidades específicas do projeto e das preferências do desenvolvedor.
