@@ -71,5 +71,6 @@ O ecossistema Vue.js é composto por uma comunidade ativa de desenvolvedores, um
 - [CURSO FEITO PELO VILHALVA](https://github.com/VILHALVA)
 - [VEJA A DOCUMENTAÇÃO](https://vuejs.org/guide/introduction.html)
 - [LINGUAGEM DE PROGRAMAÇÃO](https://github.com/VILHALVA/CURSO-DE-JAVASCRIPT)
+- [TECNOLOGIA](https://github.com/VILHALVA/CURSO-DE-EXPRESSJS)
 - [VEJA O MANUAL](./MANUAL.md)
 - [VEJA OS PROJETOS](https://github.com/VILHALVA?tab=repositories&q=topic:VUEJS)
